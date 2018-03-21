@@ -3,7 +3,7 @@ function saveTodo() {
   var newInput = document.getElementById('myInput').value;
 
   if (newInput === '') {
-    console.log('empty input');
+    alert('you must type something.');
     return;
   }
 
